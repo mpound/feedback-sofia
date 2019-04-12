@@ -1,0 +1,247 @@
+/* FEEBACK : SOFIA LEGACY PROJECT - CSS Style file 
+ * Loosely based on the "space science" style from freewebsitetemplates.com
+ */
+
+/* Navbar is fixed to the top (see bootstrap 4 example)*/
+/* https://getbootstrap.com/docs/4.0/examples/navbar-fixed/navbar-top-fixed.css*/
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+/*  background-image: url("../images/Orion_Nebula_bg.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: #d8cea7;*/
+  /*background-color: #e1d394;*/
+  background-color: #d2a579;
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+    z-index: 60;
+    /*padding-right:2em;*/
+/*
+    font-size: 2em; 
+    font-weight: normal;
+*/
+/*boostrap default is 2.5rem(1rem=1em when direct parent is body)*/
+}
+h2 {
+    z-index: 60;
+/*
+    display: block;
+    z-index: 60;
+    text-align: right;
+    font-size: 43px;
+    font-weight: normal;
+    line-height: 43px;
+    margin: 0 0 36px;
+    padding: 0 146px 0 506px;
+    text-transform: uppercase;
+    width: 388px;
+*/
+}
+h3 {
+    background: rgba(118, 75, 64, 0.8);
+
+    /*background: url("../images/bg-transparent1.png") repeat;*/
+    color: #a3a3a3;
+    float: left;
+    font-family: 'Audiowide', cursive;
+    width: 100%;
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .25em 0.25em 0.25em 0.25em;
+    z-index: 20;
+/*
+    font-size: 23px;
+    line-height: 23px;
+    margin: 96px 0 0;
+    min-height: 27px;
+    padding: 17px 0 10px;
+*/
+}
+
+#sofiaplane{
+/*   left: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 41px;
+*/
+    padding: 1em 1em 1em 1em;
+    width: 100%;
+    z-index: 50;
+}
+
+#middle-block{
+    width: 100%;
+/*    background: url("images/middle.jpg") no-repeat top center;*/
+    padding: 0.5em 0em 0.5em 0em;
+}
+a.middle-block{
+    display: block;
+    margin: 0 0 1.0em 0;
+}
+a.middle-block img{
+    border: 0.75em solid #a3a3a3;
+    margin: 0 auto 1.25em;
+    transition: all .5s ease-in-out;
+}
+a.middle-block:hover img{
+    /*border: 1em solid #66a6b6;*/
+    border: 1em solid #584444;
+
+}
+a.middle-block .middle-block-title{
+    color: #4f545b;
+    font-size: 1.em;
+    font-weight: 600;
+    transition: all .5s ease-in-out;
+/*    text-transform: uppercase;*/
+}
+
+.main-img-text-inner{
+    background: rgba(0, 0, 0, .5);
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-bottom: 1em;
+    color: #ffffff;
+}
+
+div a.more {
+    background-color: #584444;
+    color: #c3c3c3;
+    z-index: 55;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+.navbar {
+  background-color: rgba(118, 75, 64);
+}
+.navbar .navbar-brand {
+  color: #ffffff;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar .navbar-text {
+  color: #ffffff;
+}
+.navbar .navbar-text a {
+  color: #ffffff;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #ffffff; 
+}
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #ffffff;
+  background-color: #584444;
+}
+.navbar .navbar-nav .dropdown-menu {
+  background-color: rgba(118, 75, 64);
+  border-color: #a17570;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: #ffffff;
+  background-color: #584444;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  border-top-color: #a17570;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #ffffff;
+  background-color: #a17570;
+}
+.navbar .navbar-toggle {
+  border-color: #a17570;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #a17570;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #ffffff;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #ffffff;
+}
+.navbar .navbar-link {
+  color: #ffffff;
+}
+.navbar .navbar-link:hover {
+  color: #ffffff;
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #ffffff;
+  background-color: #a17570;
+}
+
+footer {
+    color: #584444;
+}
+
+li     a,
+footer a {
+    color: #584444;
+}
+
+li     a:hover,
+li     a:focus,
+footer a:hover,
+footer a:focus {
+  color: #ffffff;
+  text-decoration:none;
+}
+
+.card-title,
+.card-text {
+    color: #584444;
+}
+
+.list-group-item {
+  background-color: #d2a579;
+}
+.list-group-item a hover, 
+.list-group-item a focus, {
+  color: #ffffff;
+}
+
+ul.specialbullet  {
+list-style:none;
+}
+ul.specialbullet li:before {
+  color: #584444;
+  content:'\2022';
+  margin-right: 0.25em;
+  font-size: 2em;
+  vertical-align:middle;
+}
