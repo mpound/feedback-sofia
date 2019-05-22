@@ -1,2 +1,2 @@
-<link href="https://fonts.googleapis.com/css?family=Audiowide|Barlow|Bellefair|Roboto|Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin|Barlow|Bellefair|Roboto|Roboto+Slab|Alegreya" rel="stylesheet">
 
