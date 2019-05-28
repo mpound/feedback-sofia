@@ -10,6 +10,8 @@ In this list above, click on the file you want to change.  In the upper right, c
 ## The Method For More Extensive Changes
 If you are going to make extensive changes to the website, say change the CSS or Javascript files, or modify the layout substantially, you should do it on your own local copy and then commit those changes back to this repository.
 
+Note this updates the <i>master copy</i>.  The website is a copy not the master, and will be auto-updated from the master once per day. If you feel your changes should be immediate send email to Marc Pound to pull in your changes.
+
 ### 1) Get a local copy of the website
 If you want to make changes to the website, first you need to get a local copy of this repository.  **You only need to do this series of steps once.**
 1. Create a login at github.com
