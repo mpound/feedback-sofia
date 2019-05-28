@@ -2,7 +2,15 @@
 This repository is for maintaining the US website associated with the [FEEDBACK SOFIA Legacy Project]( http://feedback.astro.umd.edu) at the University of Maryland.
 
 # Making changes
-## Get a local copy of the website
+There are two ways to make changes to the website, the first can be used for simple things like updating html files.  
+
+## The Method for Simple Changes
+In this list above, click on the file you want to change.  In the upper right, click on the edit icon (a pencil).  Make the changes and click the green Commit Changes button at the bottom of the page.
+
+## The Method For More Extensive Changes
+If you are going to make extensive changes to the website, say change the CSS or Javascript files, or modify the layout substantially, you should do it on your own local copy and then commit those changes back to this repository.
+
+### 1) Get a local copy of the website
 If you want to make changes to the website, first you need to get a local copy of this repository.  **You only need to do this series of steps once.**
 1. Create a login at github.com
 2. Create a local copy on the command line by typing
@@ -16,7 +24,7 @@ If you want to make changes to the website, first you need to get a local copy o
     git config --global credential.helper 'cache --timeout=100000'
 ```
  
- ## Edit the file(s) you wish to change
+ ### 2) Edit the file(s) you wish to change
  1. Update your local copy with changes others may have made:
  ```shell
     git pull
