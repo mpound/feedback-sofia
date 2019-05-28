@@ -15,9 +15,9 @@
     <footer>
       <div class="container">
         <p class="text-center">
-       <a href="https://www.nasa.gov/mission_pages/SOFIA/index.html">SOFIA</a>&nbsp;|&nbsp;
-       <a href="http://www.umd.edu">UMD</a>&nbsp;|&nbsp;
-       <a href="https://www.umd.edu/web-accessibility">Web Accessibility</a> 
+       <a href="https://www.nasa.gov/mission_pages/SOFIA/index.html" target="_blank">SOFIA</a>&nbsp;|&nbsp;
+       <a href="http://www.umd.edu" target="_blank">UMD</a>&nbsp;|&nbsp;
+       <a href="https://www.umd.edu/web-accessibility" target="_blank">Web Accessibility</a> 
         </p>
       </div>
       <!-- /.container -->

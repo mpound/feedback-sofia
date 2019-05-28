@@ -27,21 +27,21 @@
            <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Tools</a>
              <div class="dropdown-menu" aria-labelledby="toolsDropdown">
-                  <a class="dropdown-item" href="http://dustem.astro.umd.edu">PDR Toolbox</a>
+                  <a class="dropdown-item" href="http://dustem.astro.umd.edu" target="_blank">PDR Toolbox</a>
              </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="team.html">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://wiki.astro.uni-koeln.de/wikis/!feedbacklegacyproject">Team Wiki</a>
+            <a class="nav-link" href="https://wiki.astro.uni-koeln.de/wikis/!feedbacklegacyproject" target="_blank">Team Wiki</a>
           </li>
           <li class="nav-item dropdown">
            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           About</a>
              <div class="dropdown-menu" aria-labelledby="aboutDropdown">
                   <a class="dropdown-item" href="about.html">The FEEDBACK Project</a>
-                  <a class="dropdown-item" href="https://www.sofia.usra.edu">SOFIA</a>
+                  <a class="dropdown-item" href="https://www.sofia.usra.edu" target="_blank">SOFIA</a>
              </div>
           </li>
 
