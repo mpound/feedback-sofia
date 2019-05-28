@@ -11,6 +11,10 @@ If you want to make changes to the website, first you need to get a local copy o
 ```
 3. You will be prompted for your github login, type your github username and password
 4. This will create a directory <tt>feedback-sofia</tt> which has all the files.
+5. To make it so you don't have to type your github login every time you make a change, you can set a long timeout for credentials prompting:
+```shell
+git config --global credential.helper 'cache --timeout=100000'
+```
  
  ## Edit the file(s) you wish to change
  1. Update your local copy with changes others may have made:
@@ -18,9 +22,10 @@ If you want to make changes to the website, first you need to get a local copy o
     git pull
  ```
  2. Edit your file(s)
- 3. Commit those files back to the github repository so others can pick them up.
+ 3. Commit those files back to the github repository so others can pick them up.  
  ```shell
  git commit -am "describe your edits here" 
  git push
  ```
+ 4. If the timeout above has been exceeded you will be prompted again for your user/password.
  
