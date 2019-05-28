@@ -5,7 +5,7 @@ This repository is for maintaining the US website associated with the [FEEDBACK 
 There are two ways to make changes to the website, the first can be used for simple things like updating html files.  
 
 ## The Method for Simple Changes
-In this list above, click on the file you want to change.  In the upper right, click on the edit icon (a pencil).  Make the changes and click the green Commit Changes button at the bottom of the page (make sure the "commit directly to master branch" radio button is selected).
+In this list above, click on the file you want to change.  In the upper right, click on the edit icon (a pencil).  Make the changes and click the green *Commit Changes* button at the bottom of the page (make sure the "commit directly to master branch" radio button is selected).
 
 ## The Method For More Extensive Changes
 If you are going to make extensive changes to the website, say change the CSS or Javascript files, or modify the layout substantially, you should do it on your own local copy and then commit those changes back to this repository.
