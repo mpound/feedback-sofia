@@ -13,7 +13,7 @@ If you want to make changes to the website, first you need to get a local copy o
 4. This will create a directory <tt>feedback-sofia</tt> which has all the files.
 5. To make it so you don't have to type your github login every time you make a change, you can set a long timeout for credentials prompting:
 ```shell
-git config --global credential.helper 'cache --timeout=100000'
+    git config --global credential.helper 'cache --timeout=100000'
 ```
  
  ## Edit the file(s) you wish to change
@@ -24,8 +24,10 @@ git config --global credential.helper 'cache --timeout=100000'
  2. Edit your file(s)
  3. Commit those files back to the github repository so others can pick them up.  
  ```shell
- git commit -am "describe your edits here" 
- git push
+    git commit -am "describe your edits here" 
+    git push
  ```
  4. If the timeout above has been exceeded you will be prompted again for your user/password.
+ 
+ Note this updates the <i>master copy</i>.  The website is a copy not the master, and will be auto-updated from the master once per day. If you feel your changes should be immediate send email to Marc Pound to pull in your changes.
  
