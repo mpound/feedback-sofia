@@ -2,7 +2,7 @@
   <div id="topheader">
 <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <a class="navbar-brand" href="#">
-      <img src="images/Logo_Feedback_small.png" alt="Feedback Logo" style="width:50px;">
+      <img src="/images/Logo_Feedback_small.png" alt="Feedback Logo" style="width:50px;">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -10,14 +10,14 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="/index.html">Home</a>
           </li>
 <!--
           <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="/projects.html">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="documents.html">Documents</a>
+            <a class="nav-link" href="/documents.html">Documents</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Data</a>
@@ -31,7 +31,7 @@
              </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="team.html">Team</a>
+            <a class="nav-link" href="/team.html">Team</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://wiki.astro.uni-koeln.de/wikis/!feedbacklegacyproject" target="_blank">Team Wiki</a>
