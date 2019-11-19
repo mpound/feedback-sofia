@@ -246,6 +246,12 @@ a.middle-block .middle-block-title{
    padding: 0.2em 0.2em 0.2em 0.2em;
 }
 
+.cardempty {
+   color: var(--main-bg-color);
+   background-color: var(--main-bg-color);
+   padding: 0.2em 0.2em 0.2em 0.2em;
+}
+
 
 div a.more {
     background-color: var(--aux-bg-color);
