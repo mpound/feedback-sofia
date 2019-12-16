@@ -14,6 +14,9 @@
           </li>
 <!--
           <li class="nav-item">
+            <a class="nav-link" href="/news.html">News</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="/projects.html">Projects</a>
           </li>
           <li class="nav-item">
@@ -30,11 +33,13 @@
                   <a class="dropdown-item" href="http://dustem.astro.umd.edu" target="_blank">PDR Toolbox</a>
              </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/team.html">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://wiki.astro.uni-koeln.de/wikis/!feedbacklegacyproject" target="_blank">Team Wiki</a>
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="teamDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Team</a>
+             <div class="dropdown-menu" aria-labelledby="teamDropdown">
+                  <a class="dropdown-item" href="team.html">Meet The Science Team</a>
+            <a class="dropdown-item" href="https://wiki.astro.uni-koeln.de/wikis/!feedbacklegacyproject" target="_blank">Team Wiki</a>
+            <a class="dropdown-item" href="https://astro.uni-koeln.de/18130.html" target="_blank">Univ. of Koeln FEEDBACK</a>
+             </div>
           </li>
           <li class="nav-item dropdown">
            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
