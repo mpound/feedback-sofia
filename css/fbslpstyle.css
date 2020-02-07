@@ -152,10 +152,18 @@ h4 {
 
 .sourcetable td{
     text-align:center;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top:0.25rem;
+    padding-bottom:0.25rem;
 }
 .sourcetable th {
     text-align:center;
-    background-color: var(--card-bg-color);
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top:0.25rem;
+    padding-bottom:0.25rem;
+    /*background-color: var(--card-bg-color);*/
 }
 
 table thead {
