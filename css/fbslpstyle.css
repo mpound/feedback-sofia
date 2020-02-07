@@ -48,6 +48,8 @@ h1 {
     --h1-font: 'Bellefair';
     --h2-font: 'Libre+Franklin';
     --h3-font: 'Libre+Franklin';
+    --h4-font: 'Roboto';
+    --h4-font-weight: bold;
    /* NEW color scheme */
     --h1-color: black;
     --main-bg-color: #5d72a5;
@@ -55,6 +57,9 @@ h1 {
     --h3-color: #a3a3a3;
     --h3-bg-color: #4e5c61;
     --h3-bg-opacity: 0.8;
+    --h4-color: #a3a3a3;
+    --h4-bg-color: #4e5c61;
+    --h4-bg-opacity: 0.8;
     --navbar-color: #4e5c61;
     --navbar-text-color: #ffffff;
     --navbar-menu-color: #6384c4;
@@ -108,6 +113,13 @@ h3 {
     padding: .25em 0.25em 0.25em 0.25em;
     z-index: 20;
 }
+h4 {
+    color: var(--card-color);
+    width: 100%;
+    position: relative;
+    font-family: var(--h4-font);
+    z-index: 20;
+}
 
 #sofiaplane{
     padding: 1em 1em 1em 1em;
@@ -130,6 +142,32 @@ h3 {
     margin-left:10%;
     margin-top:15%;
 }
+
+.sourcetable {
+    overflow-x: auto;
+    /*background-color: var(--logo-light-gray); #f4f9fa*/
+    background-color:  #e5eaea;
+    margin-bottom:0;
+}
+
+.sourcetable td{
+    text-align:center;
+}
+.sourcetable th {
+    text-align:center;
+    background-color: var(--card-bg-color);
+}
+
+table thead {
+    pointer-events:none;
+}
+
+.sourcetable tr:hover {
+    border: .1em solid var(--aux-bg-color);
+    cursor: pointer;
+}
+
+
 
 #test {
     background: #888888;
@@ -250,6 +288,13 @@ a.middle-block .middle-block-title{
    color: var(--main-bg-color);
    background-color: var(--main-bg-color);
    padding: 0.2em 0.2em 0.2em 0.2em;
+}
+
+.clipped {
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3;
+   overflow: hidden;
 }
 
 
