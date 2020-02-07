@@ -65,6 +65,7 @@ h1 {
     --navbar-menu-color: #6384c4;
     --card-color:  #24255d;
     --card-bg-color:  #92aad7;
+    --card-link-color:  #11507e;
     --aux-bg-color: #24255d;
     --logo-light-blue: #6384c4;
     --logo-dark-blue: #24255d;
@@ -146,7 +147,6 @@ h4 {
 .sourcetable {
     overflow-x: auto;
     /*background-color: var(--logo-light-gray); #f4f9fa*/
-    background-color:  #e5eaea;
     margin-bottom:0;
 }
 
@@ -422,6 +422,10 @@ footer a:focus {
     color: var(--card-color);
 }
 
+.card a {
+  color: var(--card-link-color);
+}
+
 .list-group-item {
   background-color: var(--main-bg-color);
 }
@@ -441,7 +445,6 @@ ul.specialbullet li:before {
   vertical-align:middle;
 }
 
-
 .circular-square {
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
@@ -449,3 +452,23 @@ ul.specialbullet li:before {
   border-bottom-left-radius: 50% 50%;
 }
 
+
+figure figcaption {
+  font-style: italic;
+  text-align: left;
+  display: block;
+  margin-bottom:0;
+}
+
+figure img {
+  vertical-align: top;
+}
+
+aside {
+  float:left;
+  width:45%;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
