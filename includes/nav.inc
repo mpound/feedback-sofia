@@ -33,6 +33,14 @@
                   <a class="dropdown-item" href="sources.html">Meet The Sources</a>
              </div>
           </li>
+
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="dataDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data</a>
+             <div class="dropdown-menu" aria-labelledby="dataDropdown">
+                  <a class="dropdown-item" href="https://www.sofia.usra.edu/science/data/science-archive">SOFIA Archive</a>
+             </div>
+          </li>
+
           <li class="nav-item dropdown">
            <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Tools</a>
