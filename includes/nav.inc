@@ -12,15 +12,15 @@
           <li class="nav-item">
             <a class="nav-link" href="/index.html">Home</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/publications.html">Publications</a>
+          </li>
 <!--
           <li class="nav-item">
             <a class="nav-link" href="/news.html">News</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/documents.html">Documents</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Data</a>
